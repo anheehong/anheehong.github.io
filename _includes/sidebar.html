@@ -76,6 +76,9 @@
           {%- capture url -%}
             {{notionLink}}
           {%- endcapture -%}
+        {% when 'rss' %}
+          {% assign url = '/feed.xml' | relative_url %}
+        {% else %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
