@@ -11,11 +11,11 @@ published: true
 ## document database
 ```json
 {
-    _id: 10,
-    username: 'peter',
-    email: [
-        'pbbakkum@gmail.com',
-        'pbb7c@virginia.edu'
+    "_id": 10,
+    "username": "peter",
+    "email": [
+        "pbbakkum@gmail.com",
+        "pbb7c@virginia.edu"
     ]
 }
 ```
@@ -32,27 +32,27 @@ document 기반의 데이터 모델은 풍부하고 계층적인 구조의 데�
 mongoDB는 document 지항적인 데이터베이스다. 
 ```json
 {
-    _id: ObjectID('4bd9e8e17cefd644108961bb'),
-    title: 'adventures in datebases',
-    url: 'http://example.com/databases.txt',
-    author: 'msmith',
-    vote_count: 20,
-    tags: ['databases', 'mongodb', 'indexing'],
-    image: {
-        url: 'http://example.com/db/jpg',
-        caption: 'A database',
-        type: 'jpg',
-        size: 75381,
-        data: 'Binary'
+    "_id": "ObjectID(4bd9e8e17cefd644108961bb)",
+    "title": "adventures in datebases",
+    "url": "http://example.com/databases.txt",
+    "author": "msmith",
+    "vote_count": 20,
+    "tags": ["databases", "mongodb", "indexing"],
+    "image": {
+        "url": "http://example.com/db/jpg",
+        "caption": "A database",
+        "type": "jpg",
+        "size": 75381,
+        "data": "Binary"
     }
-    comments: [
+    "comments": [
         {
-            user: 'bjones',
-            text: 'Interesting article'
+            "user": "bjones",
+            "text": "Interesting article"
         },
         {
-            user: 'sverch',
-            text: 'Color me skeptical!'
+            "user": "sverch",
+            "text": "Color me skeptical!"
         }
     ]
 }
