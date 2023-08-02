@@ -3,7 +3,7 @@ title: mongoDB document shell(3)
 author: heehong
 date: 2023-07-23 19:00:00 +0800
 categories: [mongoDB]
-tags: [데이터베이스, noSql, mongoDB, document, 몽고디비 인 액션]
+tags: [데이터베이스, noSql, mongoDB, 몽고디비 인 액션]
 published: true
 ---
 
